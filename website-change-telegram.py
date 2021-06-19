@@ -55,7 +55,7 @@ def scan_url():
 
 # Initalize script to run every 2 minutes
 scan_url()
-schedule.every(2).seconds.do(scan_url)
+schedule.every(1).seconds.do(scan_url)
 while True:
     schedule.run_pending()
     time.sleep(1)
