@@ -11,7 +11,7 @@ import time
 
 # Send a message via a telegram bot
 def telegram_bot_sendtext(bot_message):
-    bot_token = 'YOUR_BOT_TOKEN'
+    bot_token = '1862413567:AAHPkQJ02PSgW1m6FAWAWRaxzLfw1XgeHiU'
     bot_chatID = 'TELEGRAM_USER_CHAT_ID'
     send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
